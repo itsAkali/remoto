@@ -1,6 +1,5 @@
 package ops;
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class Main {
@@ -65,6 +64,16 @@ public class Main {
 		for (int i = 0; i < num.length; i++) {
 			resultado *= num[i];
 		}
+		System.out.println("El resultado es " + resultado);
+	}
+	
+	public static void restar2(int num1, int num2) {
+		int resultado = num1 - num2;
+		System.out.println("El resultado es " + resultado);
+	}
+	
+	public static void dividir2(int num1, int num2) {
+		int resultado = num1 / num2;
 		System.out.println("El resultado es " + resultado);
 	}
 }
