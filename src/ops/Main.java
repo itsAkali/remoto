@@ -56,4 +56,14 @@ public class Main {
 		int resultado = num1 * num2;
 		System.out.println("El resultado es " + resultado);
 	}
+	
+	public static void restar2(int num1, int num2) {
+		int resultado = num1 - num2;
+		System.out.println("El resultado es " + resultado);
+	}
+	
+	public static void dividir2(int num1, int num2) {
+		int resultado = num1 / num2;
+		System.out.println("El resultado es " + resultado);
+	}
 }
